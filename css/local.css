@@ -1,0 +1,237 @@
+.main-content {
+    background: #ffffff;
+    position: relative;
+}
+
+.smart-top {
+    object-fit: contain;
+    position:absolute;
+    top:-85%;
+    left:65%;
+    z-index:10;
+}
+
+.available-soon {
+    font-size: 40px;
+}
+
+.sub-title {
+    width: 30%;
+    line-height: 1.43;
+    letter-spacing: -0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Condensed", "Helvetica", "Arial", sans-serif;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.big-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 70px;
+    letter-spacing: 0.1px;
+    color: #ffffff;
+}
+
+.landing-page .navbar-transparent{
+    padding-top: 35px;
+}
+
+.header-filter:after {
+    background-color: transparent;
+}
+.tripir-t {
+    width: 140px;
+    height: 45px;
+    font-family: 'Prosto One', cursive;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+
+
+.menu-items {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    width: 130px;
+}
+
+.navbar .navbar-nav > li > a {
+    font-size: 18px;
+    text-transform: unset;
+}
+
+.pack-your-bags-and-go {
+    width: 671px;
+    height: 85px;    
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+}
+
+.big-caption {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 66px;
+    font-weight: bold;
+}
+
+.white {
+    color: #ffffff !important;
+}
+
+.green {
+    color: #009688 !important; 
+}
+
+
+.green-rectangule {
+    background-color: #009688;
+}
+
+.white-rectangule {
+    background-color: #ffffff;
+}
+
+.image-title {
+    background-image: url('../img/background_top.jpg');
+}
+
+.image-last {
+    background-image: url('../img/img-last.jpg');
+}
+
+.image-middle {
+    background-image: url('../img/bag-middle-page.jpg');
+    height: 400px;
+}
+.white-content-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #ffffff;
+}
+
+.green-content-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #009688;
+}
+
+
+.line {
+    width: 237.5px;
+    height: 1px;
+    object-fit: contain;
+    border: solid 2px #ffffff;
+}
+
+
+.line-green {
+    width: 237.5px;
+    height: 1px;
+    object-fit: contain;
+    border: solid 2px #009688;
+}
+.dont-waste-time-res {
+    width: 65%;
+}
+
+.btn {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 4px;
+}
+
+.btn-label-green {
+    color: #009688;
+
+}
+
+.rectangle-4, .rectangule-4:hover, .rectangule-4:focus {
+    width: 112px;
+    border-radius: 5px;
+    background-color: #009688 !important;
+    padding-top: 0px;
+}
+
+.edge--bottom {
+  position: relative;
+  z-index: 1;
+}
+.edge--bottom:after {
+  background: inherit;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  -webkit-backface-visibility: hidden;
+}
+.edge--bottom:after {
+  bottom: 0;
+  -webkit-transform: skewY(-2.0deg);
+          transform: skewY(-2.0deg);
+  -webkit-transform-origin: 100%;
+          transform-origin: 100%;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.section-plus-padding {
+    padding: 70px 0;
+}
+.big-caption-center {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 66px;
+    font-weight: bold;
+    text-align: center;
+}
+.info .info-title {
+    margin: 30px 0px 20px;
+}
+
+.title-icon {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.item-text {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: center;
+    padding:0px 30px 0px 30px;
+}
+
+.title-last-image {
+    padding-top: 3vh !important;
+}
+
+.landing-page .wrapper {
+    background: #009688;
+}
+
+.footer {
+    padding: 35px 0;
+    background: #003831;
+}
+
