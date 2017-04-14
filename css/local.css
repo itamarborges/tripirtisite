@@ -38,6 +38,67 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 35px;
 }
 
+@media (max-width: 991px) {
+    .landing-page .header .container {
+        padding-bottom: 20px;
+        padding-left: 20px;
+
+    }   
+    .smart-top {
+        display: none;
+    }
+        .carousel-small-screens {
+        display: block !important;
+        padding-top: 0vh !important;
+    }
+
+    .img-large-screens{
+        display: none !important;   
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar.navbar-transparent {
+        padding-top: 36px;
+        background-color: rgba(0, 0, 0, 0)
+    }
+
+    .big-title {
+        font-size: 40px;
+    }
+
+    .tripir-t {
+        font-size: 32px;
+        padding-left: 20px;
+    }
+
+    .sub-title {
+        width: 70%;
+    }
+
+    .smart-top {
+        display: none;
+    }
+
+    .container {
+        margin-right: auto;
+        margin-left: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .row {
+       margin-left: 0px;
+       margin-right: 0px;
+    }
+
+    .dont-waste-time-res {
+        width: 90% !important;
+    }
+
+}
+
+
 .header-filter:after {
     background-color: transparent;
 }
@@ -233,5 +294,13 @@ h1, h2, h3, h4, h5, h6 {
 .footer {
     padding: 35px 0;
     background: #003831;
+}
+
+.carousel-small-screens {
+    display: none;
+}
+
+.img-large-screens {
+    display: block;   
 }
 
