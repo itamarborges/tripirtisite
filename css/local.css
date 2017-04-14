@@ -96,6 +96,29 @@ h1, h2, h3, h4, h5, h6 {
         width: 90% !important;
     }
 
+    .big-caption-center {
+        font-size: 32px !important; 
+    }
+ 
+    .big-caption {
+        font-size: 32px !important;
+    }
+
+    .white-content-text {
+        font-size: 18px !important;
+    }
+    .green-content-text {
+        font-size: 18px !important;    
+    }
+
+    .title-icon {
+        font-size: 22px !important;
+    }
+
+    .item-text {
+        font-size: 18px !important;
+    }
+    
 }
 
 
@@ -302,5 +325,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .img-large-screens {
     display: block;   
+}
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
 }
 
