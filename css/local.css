@@ -18,7 +18,6 @@
 .sub-title {
     width: 30%;
     line-height: 1.43;
-    letter-spacing: -0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -42,6 +41,7 @@ h1, h2, h3, h4, h5, h6 {
     .landing-page .header .container {
         padding-bottom: 20px;
         padding-left: 20px;
+        min-height: 90vh !important; 
 
     }   
     .smart-top {
@@ -60,11 +60,11 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
     .navbar.navbar-transparent {
         padding-top: 36px;
-        background-color: rgba(0, 0, 0, 0)
+        background-color: rgba(0, 0, 0, 0);
     }
 
     .big-title {
-        font-size: 40px;
+        font-size: 32px;
     }
 
     .tripir-t {
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .sub-title {
-        width: 70%;
+        width: 80%;
     }
 
     .smart-top {
@@ -83,8 +83,8 @@ h1, h2, h3, h4, h5, h6 {
     .container {
         margin-right: auto;
         margin-left: 0px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .row {
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .dont-waste-time-res {
-        width: 90% !important;
+        width: 100% !important;
     }
 
     .big-caption-center {
@@ -117,6 +117,18 @@ h1, h2, h3, h4, h5, h6 {
 
     .item-text {
         font-size: 18px !important;
+    }
+
+.image-middle {
+        background-position: -100px !important;
+    }
+    .available-soon {
+    font-size: 32px !important;
+    text-align: center;
+}
+.sub-title {
+
+    font-size: 24px;
     }
     
 }
@@ -330,6 +342,7 @@ h1, h2, h3, h4, h5, h6 {
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 70%;
+      max-width: 300px;
       margin: auto;
   }
 
@@ -340,3 +353,21 @@ h1, h2, h3, h4, h5, h6 {
     right: auto;
 }
 
+.carousel-control.right, .carousel-control.left {
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%); */
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,0))); */
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    }
+
+    .carousel-control.left {
+background-image: rgba(0, 0, 0, 0) !important;
+    }
+
+    .carousel .left {
+  cursor: default !important;
+}
+.carousel .right {
+  cursor: default !important;
+}
