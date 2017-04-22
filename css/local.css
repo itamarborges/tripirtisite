@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 .big-title {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 70px;
-    letter-spacing: 0.1px;
+    letter-spacing: 1.1px;
     color: #ffffff;
 }
 
@@ -37,13 +37,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 35px;
 }
 
-@media (max-width: 991px) {
-    .landing-page .header .container {
-        padding-bottom: 20px;
-        padding-left: 20px;
-        min-height: 90vh !important; 
-
-    }   
+@media (max-width: 991px) {  
     .smart-top {
         display: none;
     }
@@ -55,26 +49,26 @@ h1, h2, h3, h4, h5, h6 {
     .img-large-screens{
         display: none !important;   
     }
+
+        .sub-title {
+        width: 90% !important;
+    }
+
+    .dont-waste-time-res {
+        width: 100% !important;
+    }
 }
 
 @media (max-width: 768px) {
     .navbar.navbar-transparent {
         padding-top: 36px;
-        background-color: rgba(0, 0, 0, 0);
+        background-color: rgba(0, 150, 136, 0.5);
     }
 
-    .big-title {
-        font-size: 32px;
-    }
+.big-title {
+font-size: 50px !important; 
+}
 
-    .tripir-t {
-        font-size: 32px;
-        padding-left: 20px;
-    }
-
-    .sub-title {
-        width: 80%;
-    }
 
     .smart-top {
         display: none;
@@ -92,16 +86,12 @@ h1, h2, h3, h4, h5, h6 {
        margin-right: 0px;
     }
 
-    .dont-waste-time-res {
-        width: 100% !important;
-    }
-
     .big-caption-center {
-        font-size: 32px !important; 
+        font-size: 30px !important; 
     }
  
     .big-caption {
-        font-size: 32px !important;
+        font-size: 30px !important;
     }
 
     .white-content-text {
@@ -124,11 +114,10 @@ h1, h2, h3, h4, h5, h6 {
     }
     .available-soon {
     font-size: 32px !important;
-    text-align: center;
-}
+    }
 .sub-title {
 
-    font-size: 24px;
+    font-size: 18px !important;
     }
     
 }
@@ -204,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .white-content-text {
     font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
+    font-weight: 400;
     font-size: 20px;
     line-height: 1.7;
     color: #ffffff;
@@ -212,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .green-content-text {
     font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
+    font-weight: 400;
     font-size: 20px;
     line-height: 1.7;
     color: #009688;
@@ -359,10 +348,6 @@ h1, h2, h3, h4, h5, h6 {
     background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,0))); */
     background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%); */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
-    }
-
-    .carousel-control.left {
-background-image: rgba(0, 0, 0, 0) !important;
     }
 
     .carousel .left {
