@@ -185,6 +185,9 @@ font-size: 50px !important;
 
 .image-last {
     background-image: url('../img/img-last.jpg');
+	display:table;
+	width:100%;
+	padding-bottom:20px
 }
 
 .image-middle {
@@ -325,7 +328,7 @@ font-size: 50px !important;
 }
 
 .img-large-screens {
-    display: block;   
+    display: table-row;   
 }
 
   .carousel-inner > .item > img,
