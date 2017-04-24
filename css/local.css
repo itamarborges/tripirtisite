@@ -57,6 +57,10 @@ h1, h2, h3, h4, h5, h6 {
     .dont-waste-time-res {
         width: 100% !important;
     }
+
+    .landing-page .header .container {
+        padding-bottom: 10px !important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -257,24 +261,30 @@ font-size: 50px !important;
 .edge--bottom {
   position: relative;
   z-index: 1;
+
 }
 .edge--bottom:after {
   background: inherit;
   content: '';
   display: block;
   height: 50%;
+
+  border-bottom: .6px solid #ffffff;
   left: 0;
   position: absolute;
   right: 0;
   z-index: -1;
-  -webkit-backface-visibility: hidden;
-}
-.edge--bottom:after {
   bottom: 0;
+  padding: 2px;
   -webkit-transform: skewY(-2.0deg);
           transform: skewY(-2.0deg);
+
   -webkit-transform-origin: 100%;
           transform-origin: 100%;
+}
+
+.green-shaddow:after {
+      border-bottom: .6px solid #009688 !important;
 }
 
 .section {
