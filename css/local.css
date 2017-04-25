@@ -61,6 +61,10 @@ h1, h2, h3, h4, h5, h6 {
     .landing-page .header .container {
         padding-bottom: 10px !important;
     }
+
+    .image-middle {
+        background-position: -100px !important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -113,9 +117,7 @@ font-size: 50px !important;
         font-size: 18px !important;
     }
 
-.image-middle {
-        background-position: -100px !important;
-    }
+
     .available-soon {
     font-size: 32px !important;
     }
@@ -197,6 +199,8 @@ font-size: 50px !important;
 .image-middle {
     background-image: url('../img/bag-middle-page.jpg');
     height: 400px;
+    background-size: cover;
+    background-position: center;
 }
 .white-content-text {
     font-family: 'Roboto', sans-serif;
