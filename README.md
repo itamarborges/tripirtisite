@@ -1,2 +1,0 @@
-# tripirtisite
-TripirT Website
